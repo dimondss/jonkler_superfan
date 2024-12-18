@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>jonkler</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="t-row gray center-content">
+      <img src="images/features/larson.png " class="clickable1" id="Hspot1" />
+    </div>
+    <div class="b-row l-gray">
+      <div class="hide green bottom-mid-image">
+        <img
+          src="images/features/call.png "
+          class="call"
+          id="man"
+          onclick="mancall()"
+        />
+      </div>
+      <div class="box l-gray left-content bottom-left-image">
+        <img src="images/features/mone.png " class="clickable1" id="Hspot2" />
+      </div>
+      <div class="column left-content">
+        <img
+          src="images/features/trash.png "
+          class="bottom-right-image"
+          id="Hspot3"
+        />
+      </div>
+    </div>
+    <img
+      src="images/features/chris.png"
+      class="reset gone"
+      id="reset"
+      onclick="restart()"
+    />
+    <img src="images/jerker.jpg" class="game-over gone" id="over" />
+    <img src="images/wild.jpg" class="game-over gone" id="over2" />
+    <img src="images/custody.jpg" class="game-over gone" id="win" />
+    <audio src="sounds/jumpscare.mp3" id="scare"></audio>
+    <audio src="sounds/police.mp3.mp3" id="catch"></audio>
+    <audio src="sounds/calling.wav" id="where"></audio>
+    <audio src="sounds/sigma.mp3" id="scare2"></audio>
+    <script src="script.js"></script>
+  </body>
+</html>
