@@ -1,2 +1,2 @@
 # jonkler_superfan
-Created with CodeSandbox
+short jonkler themed minigame where you have to find a robber in a bank.
